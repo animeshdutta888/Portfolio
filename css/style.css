@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    color: #2B2B2B;
+}
+
+#main-header {
+    height: 75vh;
+    background-color: #E8E8E8;
+    position: relative;
+}
+
+#main-header .container {
+    padding-top: 1rem;
+}
+
+#main-header .download {
+    font-weight: 700;
+    right: 3.5%;
+    background: none;
+    border: none;
+    position: fixed;
+    z-index: 1;
+}
+
+#main-header .intro {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    text-align: center;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+#main-header .avatar {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: -10rem;
+    border-radius: 10rem;
+    border: 0.5rem solid #898989;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    width: 10rem;
+    height: 10rem;
+    background-image: url(../img/bitmoji.jpeg);
+    background-size: cover;
+    z-index: 1;
+}
+
+#main-content .about {
+    display: block;
+    margin-top: 10rem;
+    position: relative;
+}
+
+#main-content .about .card {
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+#main-content .about .card .card-header {
+    background-color: #2B2B2B;
+    color: #E8E8E8;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+#main-content .about .card .card-body {
+    border: none;
+    margin: 2rem auto;
+    font-weight: 400;
+}
+
+#main-content .about .carousel {
+    margin: auto;
+    margin-top: 3rem;
+    background: none;
+    color: #2B2B2B;
+    backface-visibility: hidden;
+}
+
+#main-content .about .carousel .carousel-inner {
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#main-content .about .carousel .carousel-inner .carousel-item {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#main-content .skills {
+    background: #E8E8E8;
+    text-align: center;
+}
+
+#main-content .skills hr {
+    margin: auto;
+    width: 55%;
+    border: 0.5px solid #2B2B2B;
+}
+
+#main-content .skills h1 {
+    margin: 2rem 0;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, #0C97FA, #16E1F5);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#main-content .skills p {
+    text-align: center;
+    margin: 5rem auto;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+#main-content .skills .card {
+    text-align: center;
+    font-size: 5em;
+    margin: 2%;
+    background: none;
+    border: none;
+}
+
+#main-content .skills .python-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-image: url(../img/python.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+#main-content .skills .c-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    background-image: url(../img/c+.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+#main-content .skills .java-icon .icon {
+    margin: auto;
+    border-radius: 10rem;
+    border: none;
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFF;
+    background-image: url(../img/Java.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+#main-content .skills .django-icon {
+    margin: 1% auto;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.75);
+}
+
+#main-content .skills .tf-icon {
+    margin: 1% auto;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.75);
+}
+
+#main-content .skills .framework {
+    margin-bottom: 4%;
+}
+
+#main-content .skills .numpy-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .pandas-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .opencv-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .sklearn-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .contact {
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+
+#main-content .contact .card .card-header {
+    background-color: #E8E8E8;
+    color: #2B2B2B;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+#main-content .contact .card .card-body {
+    border: none;
+    margin: 10rem 0 4rem 0;
+    font-weight: 400;
+}
+
+#main-content .contact .card-body .avatar {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: -10rem;
+    border-radius: 10rem;
+    border: 0.2rem solid #2B2B2B;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    width: 6rem;
+    height: 6rem;
+    background-image: url(../img/animesh-dp.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+#main-footer {
+    height: 20vh;
+    background-color: black;
+    color: #F8F8F8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+#main-footer .foot-note {
+    margin: auto;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem .90rem;
+    margin: auto;
+    display: inline-block;
+    background: #99E2FA;
+    color: #000;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    font-size: 1.5em;
+    border: none;
+    border-radius: 3rem;
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+
+}
+
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+    background: linear-gradient(to right bottom, #E5FFB4, #99E2FA);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.btn-primary::after {
+    background: linear-gradient(to right bottom, #E5FFB4, #99E2FA);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    margin: auto 2.5%;
+    display: inline-block;
+    background: #E8E8E8;
+    color: #000;
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
+    font-size: 1.5em;
+    border: none;
+    border-radius: 3rem;
+    transition: all 0.2s ease-out;
+    position: relative;
+}
